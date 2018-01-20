@@ -4,7 +4,9 @@
   "description": "Plugin para mostrar imagenes de fondo random, imagenes provenientes de la pagina unsplash",
   "main": "index.js",
   "scripts": {
-    "test": "eslint scr"
+    "pretest": "eslint src",
+    "test": "mocha",
+    "test:watch": "mocha --watch"
   },
   "repository": {
     "type": "git",
@@ -25,6 +27,8 @@
   "homepage": "https://github.com/ErikPerez2092/jquery-bgimg-unsplash#readme",
   "devDependencies": {
     "eslint": "4.16.0",
+    "expect.js": "0.3.1",
+    "mocha": "5.0.0",
     "pre-commit": "1.2.2"
   },
   "pre-commit": [
