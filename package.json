@@ -1,0 +1,29 @@
+{
+  "name": "jquery-bgimg-unsplash",
+  "version": "0.0.0-development",
+  "description": "Plugin para mostrar imagenes de fondo random, imagenes provenientes de la pagina unsplash",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint scr"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErikPerez2092/jquery-bgimg-unsplash.git"
+  },
+  "keywords": [
+    "jquery",
+    "plugin",
+    "cover",
+    "fullpage",
+    "unsplash"
+  ],
+  "author": "Erik Perez <erikxon20@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ErikPerez2092/jquery-bgimg-unsplash/issues"
+  },
+  "homepage": "https://github.com/ErikPerez2092/jquery-bgimg-unsplash#readme",
+  "devDependencies": {
+    "eslint": "4.16.0"
+  }
+}
