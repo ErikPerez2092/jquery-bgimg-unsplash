@@ -1,3 +1,4 @@
+require('dotenv').config();
 var expect = require('expect.js');
 var jsdom = require('jsdom');
 
@@ -9,8 +10,9 @@ require('../src');
 
 describe('jquery-bgimag-unsplash', function() {
   var $section;
+  var clientId = process.env.CLIENT_ID;
   beforeEach(function () {
-    window.BgimgUnsplash.setup('981be3836cec5018e8210af41eb482cfee0bf65df2100b39ed70cca77d077ebb');
+    window.BgimgUnsplash.setup(clientId);
     $section = $('section');
   });
 
@@ -37,7 +39,7 @@ describe('jquery-bgimag-unsplash', function() {
   });
 
   it('should set clientId attr', function(){
-    expect(window.BgimgUnsplash.clientId).to.be('981be3836cec5018e8210af41eb482cfee0bf65df2100b39ed70cca77d077ebb');
+    expect(window.BgimgUnsplash.clientId).to.be(clientId);
   });
 
   it('should set default image', function() {
