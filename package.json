@@ -6,7 +6,8 @@
   "scripts": {
     "pretest": "eslint src",
     "test": "nyc mocha",
-    "test:watch": "mocha --watch"
+    "test:watch": "mocha --watch",
+    "report-coverage": "cat ./coverage/lcov.info | codecov"
   },
   "repository": {
     "type": "git",

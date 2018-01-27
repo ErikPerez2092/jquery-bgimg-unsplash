@@ -4,4 +4,6 @@ cache:
     - node_modules
 node_js:
 script:
-  - npm testD
+  - npm test
+after_success:
+  - npm run report-coverage
