@@ -13,7 +13,6 @@ npm install jquery-bgimg-unsplash
 <script src="/node_modules/jquery-bgimg-unsplash/src/index.js"></script>
 ```
 
-Antes de usar el API Unsplash, necesitas registrarte ocmo desarrollador para tener tu **CLIENT_ID**
 
 Before usign the Unsplash API, you need to register as developer then you must put the **CLIENT_ID** to be enable to get photos from Unsplash API
 
