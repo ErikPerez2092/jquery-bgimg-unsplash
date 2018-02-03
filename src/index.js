@@ -1,6 +1,6 @@
 /**
  * jquery-bgimag-unsplash
- * @version 0.0.0-development
+ * @version 1.0.0
  * @author Erik Perez
  * @license The MIT License (MIT)
  */

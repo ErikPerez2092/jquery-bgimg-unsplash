@@ -1,8 +1,8 @@
 {
   "name": "jquery-bgimg-unsplash",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "description": "Plugin para mostrar imagenes de fondo random, imagenes provenientes de la pagina unsplash",
-  "main": "index.js",
+  "main": "crc/index.js",
   "scripts": {
     "pretest": "eslint src",
     "test": "nyc mocha",
